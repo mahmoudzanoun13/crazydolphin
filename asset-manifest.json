@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/crazydolphin/static/css/main.39f82aab.css",
+    "main.js": "/crazydolphin/static/js/main.7d335cc9.js",
+    "static/media/logo.jpg": "/crazydolphin/static/media/logo.a970c61c88a65140cedd.jpg",
+    "index.html": "/crazydolphin/index.html",
+    "main.39f82aab.css.map": "/crazydolphin/static/css/main.39f82aab.css.map",
+    "main.7d335cc9.js.map": "/crazydolphin/static/js/main.7d335cc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39f82aab.css",
+    "static/js/main.7d335cc9.js"
+  ]
+}
