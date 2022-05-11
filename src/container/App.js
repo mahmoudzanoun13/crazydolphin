@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 import { Home } from '../pages/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ function App() {
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
