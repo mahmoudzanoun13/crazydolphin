@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/crazydolphin/static/css/main.39f82aab.css",
-    "main.js": "/crazydolphin/static/js/main.62fb890e.js",
+    "main.css": "/crazydolphin/static/css/main.fd5b398a.css",
+    "main.js": "/crazydolphin/static/js/main.d3183fd0.js",
     "static/media/logo.jpg": "/crazydolphin/static/media/logo.a970c61c88a65140cedd.jpg",
+    "static/media/slide_2.jpg": "/crazydolphin/static/media/slide_2.0e4b83985ceaf2e22284.jpg",
+    "static/media/slide_4.jpg": "/crazydolphin/static/media/slide_4.e2d7c40ab030bb1455ca.jpg",
+    "static/media/slide_1.jpg": "/crazydolphin/static/media/slide_1.7e61075e8438f01530cc.jpg",
+    "static/media/slide_3.jpg": "/crazydolphin/static/media/slide_3.306b8ad3fb42ca73a22e.jpg",
     "index.html": "/crazydolphin/index.html",
-    "main.39f82aab.css.map": "/crazydolphin/static/css/main.39f82aab.css.map",
-    "main.62fb890e.js.map": "/crazydolphin/static/js/main.62fb890e.js.map"
+    "main.fd5b398a.css.map": "/crazydolphin/static/css/main.fd5b398a.css.map",
+    "main.d3183fd0.js.map": "/crazydolphin/static/js/main.d3183fd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.39f82aab.css",
-    "static/js/main.62fb890e.js"
+    "static/css/main.fd5b398a.css",
+    "static/js/main.d3183fd0.js"
   ]
 }
