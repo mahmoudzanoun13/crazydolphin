@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/crazydolphin/static/css/main.fd5b398a.css",
-    "main.js": "/crazydolphin/static/js/main.d3183fd0.js",
+    "main.css": "/crazydolphin/static/css/main.e557e2f0.css",
+    "main.js": "/crazydolphin/static/js/main.a47b2e13.js",
     "static/media/logo.jpg": "/crazydolphin/static/media/logo.a970c61c88a65140cedd.jpg",
     "static/media/slide_2.jpg": "/crazydolphin/static/media/slide_2.0e4b83985ceaf2e22284.jpg",
     "static/media/slide_4.jpg": "/crazydolphin/static/media/slide_4.e2d7c40ab030bb1455ca.jpg",
     "static/media/slide_1.jpg": "/crazydolphin/static/media/slide_1.7e61075e8438f01530cc.jpg",
+    "static/media/certificate_5.jpg": "/crazydolphin/static/media/certificate_5.01fcd92343d8807ee3f1.jpg",
     "static/media/slide_3.jpg": "/crazydolphin/static/media/slide_3.306b8ad3fb42ca73a22e.jpg",
+    "static/media/certificate_1.jpg": "/crazydolphin/static/media/certificate_1.e5ee716f26b0aff35ae0.jpg",
+    "static/media/certificate_3.jpg": "/crazydolphin/static/media/certificate_3.72df22397f644609f898.jpg",
+    "static/media/certificate_4.jpg": "/crazydolphin/static/media/certificate_4.a54c405e758325ceab1a.jpg",
+    "static/media/certificate_2.jpg": "/crazydolphin/static/media/certificate_2.d0ca6a43532270895dc4.jpg",
+    "static/media/certificate_6.jpg": "/crazydolphin/static/media/certificate_6.e2e11be5389625ad3054.jpg",
     "index.html": "/crazydolphin/index.html",
-    "main.fd5b398a.css.map": "/crazydolphin/static/css/main.fd5b398a.css.map",
-    "main.d3183fd0.js.map": "/crazydolphin/static/js/main.d3183fd0.js.map"
+    "main.e557e2f0.css.map": "/crazydolphin/static/css/main.e557e2f0.css.map",
+    "main.a47b2e13.js.map": "/crazydolphin/static/js/main.a47b2e13.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd5b398a.css",
-    "static/js/main.d3183fd0.js"
+    "static/css/main.e557e2f0.css",
+    "static/js/main.a47b2e13.js"
   ]
 }
