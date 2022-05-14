@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../../assets/images/logo.jpg';
 import menuLarge from '../../assets/images/menu_large.png';
+import menuMedium from '../../assets/images/menu_medium.png';
 import menuSmall from '../../assets/images/menu_small.png';
 import close from '../../assets/images/close.png';
 import { NavLink } from 'react-router-dom';
@@ -30,7 +31,7 @@ export const Header = () => {
             {
               open
               ? <img src={close} alt="close_icon" />
-                : <img src={menuSmall} alt="menu_icon" srcSet={`${menuSmall}, ${menuLarge} 2x`} />
+              : <img src={menuSmall} alt="menu_icon" srcSet={`${menuSmall} 360w, ${menuMedium} 495w, ${menuLarge} 630w`} />
             }
           </div>
           <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0'}`}>
