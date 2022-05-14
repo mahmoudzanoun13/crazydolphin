@@ -13,7 +13,7 @@ export const WhyUs = () => {
           <img className="rounded-lg w-auto h-auto" src={scubaDiving} alt="scuba_diving_photo" />
         </div>
         <div className="container mx-auto px-4 py-10 mt-24">
-          <h6 className="text-xl font-medium text-white py-8">Why Crazy Dolphin</h6>
+          <h4 className="text-xl font-medium text-white py-8">Why Crazy Dolphin</h4>
           <p className="text-gray-400">
             Our professional and multilingual staff with many years of experience is ready to give you an amazing holiday
             whether it is above or below the water.<br/><br/>
