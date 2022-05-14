@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/crazydolphin/static/css/main.e557e2f0.css",
-    "main.js": "/crazydolphin/static/js/main.a47b2e13.js",
+    "main.css": "/crazydolphin/static/css/main.90a00a86.css",
+    "main.js": "/crazydolphin/static/js/main.978ea53f.js",
     "static/media/logo.jpg": "/crazydolphin/static/media/logo.a970c61c88a65140cedd.jpg",
     "static/media/slide_2.jpg": "/crazydolphin/static/media/slide_2.0e4b83985ceaf2e22284.jpg",
     "static/media/slide_4.jpg": "/crazydolphin/static/media/slide_4.e2d7c40ab030bb1455ca.jpg",
@@ -13,12 +13,13 @@
     "static/media/certificate_4.jpg": "/crazydolphin/static/media/certificate_4.a54c405e758325ceab1a.jpg",
     "static/media/certificate_2.jpg": "/crazydolphin/static/media/certificate_2.d0ca6a43532270895dc4.jpg",
     "static/media/certificate_6.jpg": "/crazydolphin/static/media/certificate_6.e2e11be5389625ad3054.jpg",
+    "static/media/scuba_diving.png": "/crazydolphin/static/media/scuba_diving.3d527a15557e8ed57d29.png",
     "index.html": "/crazydolphin/index.html",
-    "main.e557e2f0.css.map": "/crazydolphin/static/css/main.e557e2f0.css.map",
-    "main.a47b2e13.js.map": "/crazydolphin/static/js/main.a47b2e13.js.map"
+    "main.90a00a86.css.map": "/crazydolphin/static/css/main.90a00a86.css.map",
+    "main.978ea53f.js.map": "/crazydolphin/static/js/main.978ea53f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e557e2f0.css",
-    "static/js/main.a47b2e13.js"
+    "static/css/main.90a00a86.css",
+    "static/js/main.978ea53f.js"
   ]
 }
