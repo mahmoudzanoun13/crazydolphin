@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from '../components/Carousel/Carousel';
+import { Footer } from '../components/Footer/Footer';
 import { Content } from '../components/Content/Content';
 import { GuestsReviews } from '../components/GuestsReviews/GuestsReviews';
 import { Header } from '../components/Header/Header';
@@ -17,6 +18,7 @@ export const Home = () => {
       <GuestsReviews />
       <WhatToDo />
       <ScrollButton />
+      <Footer />
     </>
   )
 }
