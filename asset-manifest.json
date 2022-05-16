@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/crazydolphin/static/css/main.d44a3b68.css",
-    "main.js": "/crazydolphin/static/js/main.5fd650cb.js",
+    "main.css": "/crazydolphin/static/css/main.00ccf32d.css",
+    "main.js": "/crazydolphin/static/js/main.fbc3e313.js",
     "static/media/logo.jpg": "/crazydolphin/static/media/logo.a970c61c88a65140cedd.jpg",
     "static/media/slide_2.jpg": "/crazydolphin/static/media/slide_2.0e4b83985ceaf2e22284.jpg",
     "static/media/background_image.jpg": "/crazydolphin/static/media/background_image.c8d7f3947c7508d3837b.jpg",
     "static/media/slide_4.jpg": "/crazydolphin/static/media/slide_4.e2d7c40ab030bb1455ca.jpg",
+    "static/media/team.jpg": "/crazydolphin/static/media/team.4f735d308a416c86d055.jpg",
     "static/media/slide_1.jpg": "/crazydolphin/static/media/slide_1.7e61075e8438f01530cc.jpg",
     "static/media/review_3.jpg": "/crazydolphin/static/media/review_3.055c9860b7b1ce57df7b.jpg",
     "static/media/review_5.jpg": "/crazydolphin/static/media/review_5.a6bd941cb70974607b37.jpg",
@@ -13,6 +14,7 @@
     "static/media/review_10.jpg": "/crazydolphin/static/media/review_10.daad59cfb833465ff109.jpg",
     "static/media/review_2.jpg": "/crazydolphin/static/media/review_2.ed50c5bdc15f58ababac.jpg",
     "static/media/review_6.jpg": "/crazydolphin/static/media/review_6.c786776bca0ae4315d77.jpg",
+    "static/media/owner.jpg": "/crazydolphin/static/media/owner.b89ab8f619a741fe3f87.jpg",
     "static/media/review_8.jpg": "/crazydolphin/static/media/review_8.921b74fa29986f23590a.jpg",
     "static/media/review_4.jpg": "/crazydolphin/static/media/review_4.b67b13167f6b4d096440.jpg",
     "static/media/review_1.jpg": "/crazydolphin/static/media/review_1.6554d0781d93f6a57bc0.jpg",
@@ -22,6 +24,7 @@
     "static/media/certificate_1.jpg": "/crazydolphin/static/media/certificate_1.e5ee716f26b0aff35ae0.jpg",
     "static/media/certificate_3.jpg": "/crazydolphin/static/media/certificate_3.72df22397f644609f898.jpg",
     "static/media/certificate_4.jpg": "/crazydolphin/static/media/certificate_4.a54c405e758325ceab1a.jpg",
+    "static/media/fish_image.jpg": "/crazydolphin/static/media/fish_image.16b8a530bbcf2641f49b.jpg",
     "static/media/certificate_2.jpg": "/crazydolphin/static/media/certificate_2.d0ca6a43532270895dc4.jpg",
     "static/media/certificate_6.jpg": "/crazydolphin/static/media/certificate_6.e2e11be5389625ad3054.jpg",
     "static/media/scuba_diving.png": "/crazydolphin/static/media/scuba_diving.3d527a15557e8ed57d29.png",
@@ -32,11 +35,11 @@
     "static/media/facebook.svg": "/crazydolphin/static/media/facebook.0af94ffcd2d83a3e40baabce3d509150.svg",
     "static/media/instagram.svg": "/crazydolphin/static/media/instagram.94c73cf43a838ab6abd0912299ab121b.svg",
     "index.html": "/crazydolphin/index.html",
-    "main.d44a3b68.css.map": "/crazydolphin/static/css/main.d44a3b68.css.map",
-    "main.5fd650cb.js.map": "/crazydolphin/static/js/main.5fd650cb.js.map"
+    "main.00ccf32d.css.map": "/crazydolphin/static/css/main.00ccf32d.css.map",
+    "main.fbc3e313.js.map": "/crazydolphin/static/js/main.fbc3e313.js.map"
   },
   "entrypoints": [
-    "static/css/main.d44a3b68.css",
-    "static/js/main.5fd650cb.js"
+    "static/css/main.00ccf32d.css",
+    "static/js/main.fbc3e313.js"
   ]
 }
