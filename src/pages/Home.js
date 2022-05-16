@@ -3,6 +3,7 @@ import { Carousel } from '../components/Carousel/Carousel';
 import { Content } from '../components/Content/Content';
 import { GuestsReviews } from '../components/GuestsReviews/GuestsReviews';
 import { Header } from '../components/Header/Header';
+import { WhatToDo } from '../components/WhatToDo/WhatToDo';
 import { WhyUs } from '../components/WhyUs/WhyUs';
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
       <Content />
       <WhyUs />
       <GuestsReviews />
+      <WhatToDo />
     </>
   )
 }
