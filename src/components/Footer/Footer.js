@@ -83,7 +83,7 @@ export const Footer = () => {
             <div className="flex flex-col flex-1">
               <span className="font-bold text-gray-800 uppercase mt-4 md:mt-0 mb-2">CONTACTS</span>
               <span className="my-2"><p className="text-gray-700 text-md">Mobile: +201010506000</p></span>
-              <span className="my-2"><p className="text-gray-700  text-md">WhatsApp: +01013118000</p></span>
+              <span className="my-2"><p className="text-gray-700  text-md">WhatsApp: +201013118000</p></span>
               <span className="my-2"><p className="text-gray-700 text-md">E-mail: Crazywavesone@yahoo.com</p></span>
             </div>
           </div>
