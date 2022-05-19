@@ -88,10 +88,18 @@ export const ThingsToDoContent = () => {
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
       </div>
       <div className="grid md:grid-cols-4 md:px-28 px-4 pb-40 gap-6">
-        <img src={pyramid} alt="pyramid" className="w-auto h-auto rounded-lg" />
-        <img src={camel} alt="camel" className="w-auto h-auto rounded-lg" />
-        <img src={mosque} alt="mosque" className="w-auto h-auto rounded-lg" />
-        <img src={tempelate} alt="tempelate" className="w-auto h-auto rounded-lg" />
+        <div className="flex justify-center">
+          <img src={pyramid} alt="pyramid" className="w-auto h-auto rounded-lg" />
+        </div>
+        <div className="flex justify-center">
+          <img src={camel} alt="camel" className="w-auto h-auto rounded-lg" />
+        </div>
+        <div className="flex justify-center">
+          <img src={mosque} alt="mosque" className="w-auto h-auto rounded-lg" />
+        </div>
+        <div className="flex justify-center">
+          <img src={tempelate} alt="tempelate" className="w-auto h-auto rounded-lg" />
+        </div>
       </div>
     </div>
   )
