@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/crazydolphin/static/css/main.0b514cc2.css",
-    "main.js": "/crazydolphin/static/js/main.96cc5037.js",
+    "main.css": "/crazydolphin/static/css/main.bd2bd381.css",
+    "main.js": "/crazydolphin/static/js/main.c4483c47.js",
     "static/media/snorkeling.jpg": "/crazydolphin/static/media/snorkeling.4c442afa7596f350075f.jpg",
     "static/media/dive_and_discount.jpg": "/crazydolphin/static/media/dive_and_discount.ed07ad28b9b02031cc81.jpg",
     "static/media/diving.jpg": "/crazydolphin/static/media/diving.266add9b0237b575bb63.jpg",
@@ -9,17 +9,21 @@
     "static/media/slide_2.jpg": "/crazydolphin/static/media/slide_2.0e4b83985ceaf2e22284.jpg",
     "static/media/background_image.jpg": "/crazydolphin/static/media/background_image.c8d7f3947c7508d3837b.jpg",
     "static/media/slide_4.jpg": "/crazydolphin/static/media/slide_4.e2d7c40ab030bb1455ca.jpg",
+    "static/media/camel.jpg": "/crazydolphin/static/media/camel.62070a93e34149987d5b.jpg",
     "static/media/team.jpg": "/crazydolphin/static/media/team.4f735d308a416c86d055.jpg",
     "static/media/slide_1.jpg": "/crazydolphin/static/media/slide_1.7e61075e8438f01530cc.jpg",
+    "static/media/tempelate.jpg": "/crazydolphin/static/media/tempelate.2c89559014cfe33c9fc6.jpg",
     "static/media/review_3.jpg": "/crazydolphin/static/media/review_3.055c9860b7b1ce57df7b.jpg",
     "static/media/review_5.jpg": "/crazydolphin/static/media/review_5.a6bd941cb70974607b37.jpg",
     "static/media/review_7.jpg": "/crazydolphin/static/media/review_7.93b7adec74468c9c3afb.jpg",
     "static/media/review_10.jpg": "/crazydolphin/static/media/review_10.daad59cfb833465ff109.jpg",
     "static/media/review_2.jpg": "/crazydolphin/static/media/review_2.ed50c5bdc15f58ababac.jpg",
     "static/media/review_6.jpg": "/crazydolphin/static/media/review_6.c786776bca0ae4315d77.jpg",
+    "static/media/pyramid.jpg": "/crazydolphin/static/media/pyramid.aa94e6f389ad0f7cf808.jpg",
     "static/media/owner.jpg": "/crazydolphin/static/media/owner.995e67d5b616496a0d26.jpg",
     "static/media/review_8.jpg": "/crazydolphin/static/media/review_8.921b74fa29986f23590a.jpg",
     "static/media/review_4.jpg": "/crazydolphin/static/media/review_4.b67b13167f6b4d096440.jpg",
+    "static/media/mosque.jpg": "/crazydolphin/static/media/mosque.3b8b532a7a6b437db09e.jpg",
     "static/media/review_1.jpg": "/crazydolphin/static/media/review_1.6554d0781d93f6a57bc0.jpg",
     "static/media/certificate_5.jpg": "/crazydolphin/static/media/certificate_5.01fcd92343d8807ee3f1.jpg",
     "static/media/review_9.jpg": "/crazydolphin/static/media/review_9.f7c01d9b672c6bbe81bf.jpg",
@@ -36,6 +40,7 @@
     "static/media/cmas.png": "/crazydolphin/static/media/cmas.89fe002ff07eb49bd000.png",
     "static/media/scuba_diving.png": "/crazydolphin/static/media/scuba_diving.3d527a15557e8ed57d29.png",
     "static/media/transportation_services.jpg": "/crazydolphin/static/media/transportation_services.0b1175f01430b4d2c446.jpg",
+    "static/media/trips.jpg": "/crazydolphin/static/media/trips.622c521e720791ec76f7.jpg",
     "static/media/ndl.png": "/crazydolphin/static/media/ndl.4a34936861f44dc5fcb3.png",
     "static/media/whatsapp.svg": "/crazydolphin/static/media/whatsapp.cef674c79e04a6a88c1ee1727332ac69.svg",
     "static/media/wechat.svg": "/crazydolphin/static/media/wechat.05f6e6c18f309062f51b4b5c785cbf49.svg",
@@ -44,11 +49,11 @@
     "static/media/facebook.svg": "/crazydolphin/static/media/facebook.0af94ffcd2d83a3e40baabce3d509150.svg",
     "static/media/instagram.svg": "/crazydolphin/static/media/instagram.94c73cf43a838ab6abd0912299ab121b.svg",
     "index.html": "/crazydolphin/index.html",
-    "main.0b514cc2.css.map": "/crazydolphin/static/css/main.0b514cc2.css.map",
-    "main.96cc5037.js.map": "/crazydolphin/static/js/main.96cc5037.js.map"
+    "main.bd2bd381.css.map": "/crazydolphin/static/css/main.bd2bd381.css.map",
+    "main.c4483c47.js.map": "/crazydolphin/static/js/main.c4483c47.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b514cc2.css",
-    "static/js/main.96cc5037.js"
+    "static/css/main.bd2bd381.css",
+    "static/js/main.c4483c47.js"
   ]
 }
