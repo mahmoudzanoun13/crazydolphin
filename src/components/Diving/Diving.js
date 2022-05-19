@@ -10,7 +10,7 @@ export const Diving = () => {
   return (
     <div id="diving" className="bg-gray-800 mt-28">
       <ul className="bg-yellow-500">
-        <li>
+        <li className="p-1 md:p-2">
           <HashLink
             smooth to="/program/#diving"
             className="text-gray-800 p-2 font-semibold hover:text-gray-700 cursor-pointer duration-500 underline opacity-80"
@@ -18,7 +18,7 @@ export const Diving = () => {
             Diving
           </HashLink>
         </li>
-        <li>
+        <li className="p-1 md:p-2">
           <HashLink
             smooth to="/program/#snorkeling"
             className="text-gray-800 p-2 font-semibold hover:text-gray-700 cursor-pointer duration-500 underline opacity-80"
@@ -26,7 +26,7 @@ export const Diving = () => {
             Snorkeling
           </HashLink>
         </li>
-        <li>
+        <li className="p-1 md:p-2">
           <HashLink
             smooth to="/program/#special-offers"
             className="text-gray-800 p-2 font-semibold hover:text-gray-700 cursor-pointer duration-500 underline opacity-80"
