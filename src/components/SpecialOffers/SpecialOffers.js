@@ -11,7 +11,7 @@ export const SpecialOffers = () => {
       <div className="container mx-auto px-8 md:grid md:place-items-center">
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
       </div>
-      <div className="grid md:grid-cols-3 px-28">
+      <div className="grid md:grid-cols-3 md:px-28">
         <div className="container mx-auto px-4 py-10">
           <img className="rounded-lg w-auto h-auto" src={diveAndDiscount} alt="fish_image" />
           <div className="flex flex-col items-center">

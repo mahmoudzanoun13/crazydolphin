@@ -12,7 +12,7 @@ export const Diving = () => {
       <div className="container mx-auto px-8 md:grid md:place-items-center">
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
       </div>
-      <div className="flex flex-col items-center py-8 mb-8 bg-yellow-500">
+      <div className="flex flex-col items-center py-8 mb-8 bg-slate-300">
         <div className="flex p-2">
           <img src={padi} alt="padi_icon" className="w-12 h-12 m-2" />
           <img src={cmas} alt="cmas_icon" className="w-12 h-12 m-2" />
