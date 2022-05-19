@@ -13,7 +13,7 @@ export const ThingsToDoContent = () => {
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
       </div>
       <div className="grid md:grid-cols-2">
-        <div className="container mx-auto px-4 py-10">
+        <div className="container mx-auto px-4 py-10 flex justify-center md:block">
           <img className="rounded-lg w-auto h-auto" src={trips} alt="fish_image" />
         </div>
         <div className="container mx-auto px-4 py-10 md:order-[-1]">
@@ -87,7 +87,7 @@ export const ThingsToDoContent = () => {
       <div className="container mx-auto px-8 md:grid md:place-items-center">
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
       </div>
-      <div className="grid md:grid-cols-4 md:px-28 pb-40 gap-6">
+      <div className="grid md:grid-cols-4 md:px-28 px-4 pb-40 gap-6">
         <img src={pyramid} alt="pyramid" className="w-auto h-auto rounded-lg" />
         <img src={camel} alt="camel" className="w-auto h-auto rounded-lg" />
         <img src={mosque} alt="mosque" className="w-auto h-auto rounded-lg" />
