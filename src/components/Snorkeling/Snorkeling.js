@@ -3,7 +3,7 @@ import snorkeling from '../../assets/images/snorkeling.jpg';
 
 export const Snorkeling = () => {
   return (
-    <div className="bg-gray-800">
+    <div id="snorkeling" className="bg-gray-800">
       <h3 className="text-white text-center text-4xl md:text-6xl py-6">Snorkeling</h3><br/>
       <div className="container mx-auto px-8 md:grid md:place-items-center">
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
