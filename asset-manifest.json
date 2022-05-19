@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/crazydolphin/static/css/main.dd8e4794.css",
-    "main.js": "/crazydolphin/static/js/main.bc48ef6d.js",
+    "main.css": "/crazydolphin/static/css/main.0b514cc2.css",
+    "main.js": "/crazydolphin/static/js/main.96cc5037.js",
     "static/media/snorkeling.jpg": "/crazydolphin/static/media/snorkeling.4c442afa7596f350075f.jpg",
     "static/media/dive_and_discount.jpg": "/crazydolphin/static/media/dive_and_discount.ed07ad28b9b02031cc81.jpg",
     "static/media/diving.jpg": "/crazydolphin/static/media/diving.266add9b0237b575bb63.jpg",
@@ -44,11 +44,11 @@
     "static/media/facebook.svg": "/crazydolphin/static/media/facebook.0af94ffcd2d83a3e40baabce3d509150.svg",
     "static/media/instagram.svg": "/crazydolphin/static/media/instagram.94c73cf43a838ab6abd0912299ab121b.svg",
     "index.html": "/crazydolphin/index.html",
-    "main.dd8e4794.css.map": "/crazydolphin/static/css/main.dd8e4794.css.map",
-    "main.bc48ef6d.js.map": "/crazydolphin/static/js/main.bc48ef6d.js.map"
+    "main.0b514cc2.css.map": "/crazydolphin/static/css/main.0b514cc2.css.map",
+    "main.96cc5037.js.map": "/crazydolphin/static/js/main.96cc5037.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd8e4794.css",
-    "static/js/main.bc48ef6d.js"
+    "static/css/main.0b514cc2.css",
+    "static/js/main.96cc5037.js"
   ]
 }
