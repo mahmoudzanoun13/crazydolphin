@@ -87,11 +87,11 @@ export const ThingsToDoContent = () => {
       <div className="container mx-auto px-8 md:grid md:place-items-center">
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
       </div>
-      <div className="grid md:grid-cols-4 md:px-28 pb-40">
-        <img src={pyramid} alt="pyramid" className="w-auto h-auto rounded-lg px-2" />
-        <img src={camel} alt="camel" className="w-auto h-auto rounded-lg px-2" />
-        <img src={mosque} alt="mosque" className="w-auto h-auto rounded-lg px-2" />
-        <img src={tempelate} alt="tempelate" className="w-auto h-auto rounded-lg px-2" />
+      <div className="grid md:grid-cols-4 md:px-28 pb-40 gap-6">
+        <img src={pyramid} alt="pyramid" className="w-auto h-auto rounded-lg" />
+        <img src={camel} alt="camel" className="w-auto h-auto rounded-lg" />
+        <img src={mosque} alt="mosque" className="w-auto h-auto rounded-lg" />
+        <img src={tempelate} alt="tempelate" className="w-auto h-auto rounded-lg" />
       </div>
     </div>
   )
