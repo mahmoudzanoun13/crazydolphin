@@ -4,37 +4,10 @@ import padi from '../../assets/images/padi.png';
 import cmas from '../../assets/images/cmas.png';
 import ndl from '../../assets/images/ndl.png';
 import dan from '../../assets/images/dan.jpg';
-import { HashLink } from 'react-router-hash-link';
 
 export const Diving = () => {
   return (
-    <div id="diving" className="bg-gray-800 mt-28">
-      <ul className="bg-yellow-500">
-        <li className="p-1 md:p-1 m-2">
-          <HashLink
-            smooth to="/program/#diving"
-            className="text-gray-800 p-2 font-semibold hover:text-gray-700 cursor-pointer duration-500 underline opacity-80"
-          >
-            Diving
-          </HashLink>
-        </li>
-        <li className="p-1 md:p-1 m-2">
-          <HashLink
-            smooth to="/program/#snorkeling"
-            className="text-gray-800 p-2 font-semibold hover:text-gray-700 cursor-pointer duration-500 underline opacity-80"
-          >
-            Snorkeling
-          </HashLink>
-        </li>
-        <li className="p-1 md:p-1 m-2">
-          <HashLink
-            smooth to="/program/#special-offers"
-            className="text-gray-800 p-2 font-semibold hover:text-gray-700 cursor-pointer duration-500 underline opacity-80"
-          >
-            Special Offers
-          </HashLink>
-        </li>
-      </ul>
+    <div id="diving" className="bg-gray-800">
       <h3 className="text-white text-center text-4xl md:text-6xl py-6">Diving</h3><br/>
       <div className="container mx-auto px-8 md:grid md:place-items-center">
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
