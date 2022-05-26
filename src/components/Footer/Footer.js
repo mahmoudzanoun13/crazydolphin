@@ -7,8 +7,10 @@ import youTUbe from '../../assets/images/youtube.svg';
 import instagram from '../../assets/images/instagram.svg';
 import weChat from '../../assets/images/wechat.svg';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer id="footer" className="bg-yellow-500 relative pt-1">
       <div className="container mx-auto px-6">
@@ -75,16 +77,16 @@ export const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col flex-1">
-              <span className="font-bold text-gray-800 uppercase mt-4 md:mt-0 mb-2">COMPANY</span>
-              <span className="my-2"><NavLink to="/about" className="text-gray-700  text-md hover:opacity-80 duration-500">About</NavLink></span>
-              <span className="my-2"><NavLink to="/program" className="text-gray-700  text-md hover:opacity-80 duration-500">Program</NavLink></span>
-              <span className="my-2"><NavLink to="/booking" className="text-gray-700  text-md hover:opacity-80 duration-500">Booking</NavLink></span>
+              <span className="font-bold text-gray-800 uppercase mt-4 md:mt-0 mb-2">{t('footer.1')}</span>
+              <span className="my-2"><NavLink to="/about" className="text-gray-700  text-md hover:opacity-80 duration-500">{t('footer.2')}</NavLink></span>
+              <span className="my-2"><NavLink to="/program" className="text-gray-700  text-md hover:opacity-80 duration-500">{t('footer.3')}</NavLink></span>
+              <span className="my-2"><NavLink to="/booking" className="text-gray-700  text-md hover:opacity-80 duration-500">{t('footer.4')}</NavLink></span>
             </div>
             <div className="flex flex-col flex-1">
-              <span className="font-bold text-gray-800 uppercase mt-4 md:mt-0 mb-2">CONTACTS</span>
-              <span className="my-2"><p className="text-gray-700 text-md">Mobile: +201010506000</p></span>
-              <span className="my-2"><p className="text-gray-700  text-md">WhatsApp: +201013118000</p></span>
-              <span className="my-2"><p className="text-gray-700 text-md">E-mail: Crazywavesone@yahoo.com</p></span>
+              <span className="font-bold text-gray-800 uppercase mt-4 md:mt-0 mb-2">{t('footer.5')}</span>
+              <span className="my-2"><p className="text-gray-700 text-md">{t('footer.6')}</p></span>
+              <span className="my-2"><p className="text-gray-700  text-md">{t('footer.7')}</p></span>
+              <span className="my-2"><p className="text-gray-700 text-md">{t('footer.8')}</p></span>
             </div>
           </div>
         </div>
@@ -93,7 +95,7 @@ export const Footer = () => {
         <div className="mt-16 flex flex-col items-center">
           <div className="sm:w-2/3 text-center py-6">
             <p className="text-sm text-white font-bold mb-2">
-              Copyright © 2022 Crazy Dolphin Powered by Mahmoud.
+              {t('footer.9')}
             </p>
           </div>
         </div>

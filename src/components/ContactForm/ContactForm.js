@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { send } from 'emailjs-com';
+import { useTranslation } from 'react-i18next';
 
 export const ContactForm = () => {
   const [state, setState] = useState({
@@ -55,6 +56,8 @@ export const ContactForm = () => {
     }
   }
 
+  const { t } = useTranslation();
+
   return (
     <div className="h-full flex justify-center flex-col">
       <div className="w-4/5 md:w-2/3 m-auto p-8 shadow-lg">
@@ -62,7 +65,7 @@ export const ContactForm = () => {
           <svg xmlns="http://www.w3.org/2000/svg" className="h-12 transform rotate-45" viewBox="0 0 20 20" fill="currentColor">
             <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
           </svg>
-          <span>Contact us</span>
+          <span>{t('contactform.1')}</span>
         </h1>
         {
           submitMessage &&
@@ -75,7 +78,7 @@ export const ContactForm = () => {
           className="flex flex-col"
         >
           <div className="my-2 flex flex-col">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">{t('contactform.2')}</label>
             <input
               onChange={onChangeForm}
               type="text"
@@ -85,7 +88,7 @@ export const ContactForm = () => {
             />
           </div>
           <div className="my-2 flex flex-col">
-            <label htmlFor="email">E-mail</label>
+            <label htmlFor="email">{t('contactform.3')}</label>
             <input
               onChange={onChangeForm}
               type="email"
@@ -95,7 +98,7 @@ export const ContactForm = () => {
             />
           </div>
           <div className="my-2 flex flex-col">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">{t('contactform.4')}</label>
             <textarea
               onChange={onChangeForm}
               id="message"

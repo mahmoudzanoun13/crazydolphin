@@ -1,20 +1,41 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../assets/images/logo.jpg';
 import menuLarge from '../../assets/images/menu_large.png';
 import menuSmall from '../../assets/images/menu_small.png';
 import close from '../../assets/images/close.png';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export const Header = () => {
+  const { t, i18n } = useTranslation();
+  const home = t('header.1');
+  const about = t('header.2');
+  const program = t('header.3');
+  const booking = t('header.4');
+  const things_to_do = t('header.5');
+  const contact = t('header.6');
   const Links = [
-    {name: "Home", link: "/"},
-    {name: "About", link: "/about"},
-    {name: "Program", link: "/program"},
-    {name: "Booking", link: "/booking"},
-    {name: "Things to do", link: "/things_to_do"},
-    {name: "Contact", link: "/contact"},
+    {name: home, link: "/"},
+    {name: about, link: "/about"},
+    {name: program, link: "/program"},
+    {name: booking, link: "/booking"},
+    {name: things_to_do, link: "/things_to_do"},
+    {name: contact, link: "/contact"},
   ];
   const [open, setOpen] = useState(false);
+
+  const handleClick = (e) => {
+    i18n.changeLanguage(e.target.value);
+  }
+
+  useEffect(() => {
+    for (let index = 0; index < document.getElementsByClassName('lang').length; index++) {
+      const element = document.getElementsByClassName('lang')[index];
+      if(element.value === i18n.language) {
+        element.setAttribute("selected", "true");
+      }
+    }
+  }, [i18n.language]);
 
   return (
     <header id="header">
@@ -41,6 +62,23 @@ export const Header = () => {
                 </li>
               ))
             }
+            <select
+              onClick={handleClick}
+              id="languages"
+              name="languages"
+              className="md:ml-8 p-2 rounded cursor-pointer"
+            >
+              <option value="en" className="lang">EN</option>
+              <option value="pl" className="lang">PL</option>
+              <option value="de" className="lang">DE</option>
+              <option value="ru" className="lang">RU</option>
+              <option value="dk" className="lang">DK</option>
+              <option value="nl" className="lang">NL</option>
+              <option value="fr" className="lang">FR</option>
+              <option value="ch" className="lang">CN</option>
+              <option value="sp" className="lang">ES</option>
+              <option value="sr" className="lang">SR</option>
+            </select>
           </ul>
         </nav>
       </div>
