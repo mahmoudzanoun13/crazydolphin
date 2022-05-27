@@ -62,23 +62,25 @@ export const Header = () => {
                 </li>
               ))
             }
-            <select
-              onClick={handleClick}
-              id="languages"
-              name="languages"
-              className="md:ml-8 p-2 rounded cursor-pointer"
-            >
-              <option value="en" className="lang">EN</option>
-              <option value="pl" className="lang">PL</option>
-              <option value="de" className="lang">DE</option>
-              <option value="ru" className="lang">RU</option>
-              <option value="dk" className="lang">DK</option>
-              <option value="nl" className="lang">NL</option>
-              <option value="fr" className="lang">FR</option>
-              <option value="ch" className="lang">CN</option>
-              <option value="sp" className="lang">ES</option>
-              <option value="sr" className="lang">SR</option>
-            </select>
+            <li>
+              <select
+                onClick={handleClick}
+                id="languages"
+                name="languages"
+                className="md:ml-8 p-2 rounded cursor-pointer"
+              >
+                <option value="en" className="lang">EN</option>
+                <option value="pl" className="lang">PL</option>
+                <option value="de" className="lang">DE</option>
+                <option value="ru" className="lang">RU</option>
+                <option value="dk" className="lang">DK</option>
+                <option value="nl" className="lang">NL</option>
+                <option value="fr" className="lang">FR</option>
+                <option value="ch" className="lang">CN</option>
+                <option value="sp" className="lang">ES</option>
+                <option value="sr" className="lang">SR</option>
+              </select>
+              </li>
           </ul>
         </nav>
       </div>
