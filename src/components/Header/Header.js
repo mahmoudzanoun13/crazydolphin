@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import logo from '../../assets/images/logo.jpg';
 import menuLarge from '../../assets/images/menu_large.png';
 import menuSmall from '../../assets/images/menu_small.png';
-import close from '../../assets/images/close.png';
+import closeLarge from '../../assets/images/close_large.png';
+import closeSmall from '../../assets/images/close_small.png';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -50,7 +51,7 @@ export const Header = () => {
           >
             {
               open
-              ? <img src={close} alt="close_icon" />
+              ? <img src={closeSmall} alt="close_icon" srcSet={`${closeSmall}, ${closeLarge} 2x`} />
               : <img src={menuSmall} alt="menu_icon" srcSet={`${menuSmall}, ${menuLarge} 2x`} />
             }
           </div>
