@@ -12,7 +12,7 @@ export const WhyUs = () => {
       </div>
       <div className="grid md:grid-cols-2 mt-28">
         <div className="container mx-auto px-4 py-10">
-          <img className="rounded-lg w-auto h-auto" src={scubaDiving} alt="scuba_diving_photo" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto" src={scubaDiving} alt="scuba_diving_photo" />
         </div>
         <div className="container mx-auto px-4 py-10 mt-24">
           <h4 className="text-xl font-medium text-white py-8">{t('whyus.2')}</h4>

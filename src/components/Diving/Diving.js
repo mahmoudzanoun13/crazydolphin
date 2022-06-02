@@ -16,17 +16,17 @@ export const Diving = () => {
       </div>
       <div className="flex flex-col items-center py-8 mb-8 bg-slate-300">
         <div className="flex p-2">
-          <img src={padi} alt="padi_icon" className="w-12 h-12 m-2" />
-          <img src={cmas} alt="cmas_icon" className="w-12 h-12 m-2" />
+          <img loading="lazy" src={padi} alt="padi_icon" className="w-12 h-12 m-2" />
+          <img loading="lazy" src={cmas} alt="cmas_icon" className="w-12 h-12 m-2" />
         </div>
         <div className="flex p-2">
-          <img src={ndl} alt="ndl_icon" className="w-12 h-12 m-2" />
-          <img src={dan} alt="dan_icon" className="w-12 h-12 m-2" />
+          <img loading="lazy" src={ndl} alt="ndl_icon" className="w-12 h-12 m-2" />
+          <img loading="lazy" src={dan} alt="dan_icon" className="w-12 h-12 m-2" />
         </div>
       </div>
       <div className="grid md:grid-cols-2">
         <div className="container mx-auto px-4 py-10">
-          <img className="rounded-lg w-auto h-auto" src={diving} alt="fish_image" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto" src={diving} alt="fish_image" />
         </div>
         <div className="container mx-auto px-4 py-10">
           <h4 className="text-xl font-medium text-white py-8">{t('diving.2')}</h4>

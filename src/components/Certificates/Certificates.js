@@ -52,6 +52,7 @@ export const Certificates = () => {
       <div className="carousel-inner relative w-full overflow-hidden mt-52">
         <div className="carousel-item active float-left w-full">
           <img
+            loading="lazy"
             src={certificateOne}
             className="block w-full"
             alt="certificate of excellence 2016"
@@ -59,6 +60,7 @@ export const Certificates = () => {
         </div>
         <div className="carousel-item float-left w-full">
           <img
+            loading="lazy"
             src={certificateTwo}
             className="block w-full"
             alt="certificate of excellence 2017"
@@ -66,6 +68,7 @@ export const Certificates = () => {
         </div>
         <div className="carousel-item float-left w-full">
           <img
+            loading="lazy"
             src={certificateThree}
             className="block w-full"
             alt="certificate of excellence 2018"
@@ -73,6 +76,7 @@ export const Certificates = () => {
         </div>
         <div className="carousel-item float-left w-full">
           <img
+            loading="lazy"
             src={certificateFour}
             className="block w-full"
             alt="certificate of excellence 2019"
@@ -80,6 +84,7 @@ export const Certificates = () => {
         </div>
         <div className="carousel-item float-left w-full">
           <img
+            loading="lazy"
             src={certificateFive}
             className="block w-full"
             alt="certificate of excellence 2020"
@@ -87,6 +92,7 @@ export const Certificates = () => {
         </div>
         <div className="carousel-item float-left w-full">
           <img
+            loading="lazy"
             src={certificateSix}
             className="block w-full"
             alt="certificate of excellence 2021"

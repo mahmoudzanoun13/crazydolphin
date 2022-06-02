@@ -12,7 +12,7 @@ export const Snorkeling = () => {
       </div>
       <div className="grid md:grid-cols-2">
         <div className="container mx-auto px-4 py-10">
-          <img className="rounded-lg w-auto h-auto" src={snorkeling} alt="fish_image" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto" src={snorkeling} alt="fish_image" />
         </div>
         <div className="container mx-auto px-4 py-10 md:order-[-1]">
           <h4 className="text-xl font-medium text-white py-8">{t('snorkeling.2')}</h4>

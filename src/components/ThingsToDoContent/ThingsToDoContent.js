@@ -16,7 +16,7 @@ export const ThingsToDoContent = () => {
       </div>
       <div className="grid md:grid-cols-2">
         <div className="container mx-auto px-4 py-10 flex justify-center md:block">
-          <img className="rounded-lg w-auto h-auto" src={trips} alt="fish_image" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto" src={trips} alt="fish_image" />
         </div>
         <div className="container mx-auto px-4 py-10 md:order-[-1]">
           <h4 className="text-xl font-medium text-white py-8 text-center">{t('thingstodocontent.1')}</h4>
@@ -63,16 +63,16 @@ export const ThingsToDoContent = () => {
       </div>
       <div className="grid md:grid-cols-4 md:px-28 px-4 pb-40 gap-6">
         <div className="flex justify-center">
-          <img src={pyramid} alt="pyramid" className="w-auto h-auto rounded-lg" />
+          <img loading="lazy" src={pyramid} alt="pyramid" className="w-auto h-auto rounded-lg" />
         </div>
         <div className="flex justify-center">
-          <img src={camel} alt="camel" className="w-auto h-auto rounded-lg" />
+          <img loading="lazy" src={camel} alt="camel" className="w-auto h-auto rounded-lg" />
         </div>
         <div className="flex justify-center">
-          <img src={mosque} alt="mosque" className="w-auto h-auto rounded-lg" />
+          <img loading="lazy" src={mosque} alt="mosque" className="w-auto h-auto rounded-lg" />
         </div>
         <div className="flex justify-center">
-          <img src={tempelate} alt="tempelate" className="w-auto h-auto rounded-lg" />
+          <img loading="lazy" src={tempelate} alt="tempelate" className="w-auto h-auto rounded-lg" />
         </div>
       </div>
     </div>

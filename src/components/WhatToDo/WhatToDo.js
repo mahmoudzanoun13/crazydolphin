@@ -14,6 +14,7 @@ export const WhatToDo = () => {
       >
         <div>
           <img
+            loading="lazy"
             className="max-w-full h-auto m-auto pt-24"
             src={iconImage}
             alt="diving_icon"

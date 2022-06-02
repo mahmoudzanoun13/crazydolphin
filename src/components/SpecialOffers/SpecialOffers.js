@@ -15,7 +15,7 @@ export const SpecialOffers = () => {
       </div>
       <div className="grid md:grid-cols-3 md:px-28">
         <div className="container mx-auto px-4 py-10">
-          <img className="rounded-lg w-auto h-auto" src={diveAndDiscount} alt="fish_image" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto" src={diveAndDiscount} alt="fish_image" />
           <div className="flex flex-col items-center">
             <h4 className="text-xl font-medium text-white py-8">{t('specialoffers.2')}</h4>
             <p className="text-gray-400 text-center">
@@ -31,7 +31,7 @@ export const SpecialOffers = () => {
           </div>
         </div>
         <div className="container mx-auto px-4 py-10">
-          <img className="rounded-lg w-auto h-auto" src={airportTransefer} alt="fish_image" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto" src={airportTransefer} alt="fish_image" />
           <div className="flex flex-col items-center">
             <h4 className="text-xl font-medium text-white py-8">{t('specialoffers.9')}</h4>
             <p className="text-gray-400 text-center">
@@ -43,7 +43,7 @@ export const SpecialOffers = () => {
               {t('specialoffers.14')}<br/>
               {t('specialoffers.15')}
             </p>
-            <img className="rounded-lg w-auto h-auto pt-8" src={diveAndStay} alt="fish_image" />
+            <img loading="lazy" className="rounded-lg w-auto h-auto pt-8" src={diveAndStay} alt="fish_image" />
             <div className="flex flex-col items-center">
               <h4 className="text-xl font-medium text-white py-8">{t('specialoffers.16')}</h4>
               <p className="text-gray-400 text-center">
@@ -68,7 +68,7 @@ export const SpecialOffers = () => {
           </div>
         </div>
         <div className="container mx-auto px-4 py-10">
-          <img className="rounded-lg w-auto h-auto relative mx-auto" src={transportationServices} alt="fish_image" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto relative mx-auto" src={transportationServices} alt="fish_image" />
           <div className="flex flex-col items-center">
             <h4 className="text-xl font-medium text-white py-8">{t('specialoffers.33')}</h4>
             <p className="text-gray-400 text-center">

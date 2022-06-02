@@ -37,7 +37,7 @@ export const Reviews = () => {
             className="w-56 md:w-80 h-52 rounded-lg m-4"
           >
             <div className="flex items-center justify-around">
-              <img src={review.src} alt={review.alt} className="rounded-lg w-auto h-auto" />
+              <img loading="lazy" src={review.src} alt={review.alt} className="rounded-lg w-auto h-auto" />
             </div>
           </div>
         ))

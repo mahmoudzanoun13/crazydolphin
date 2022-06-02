@@ -11,6 +11,7 @@ export const Carousel = () => {
       <div className="carousel-inner relative w-full overflow-hidden">
         <div className="carousel-item active relative float-left w-full">
           <img
+            loading="lazy"
             src={slideOne}
             className="block w-full"
             alt="diving_photo"
@@ -18,6 +19,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item relative float-left w-full">
           <img
+            loading="lazy"
             src={slideTwo}
             className="block w-full"
             alt="diving_photo"
@@ -25,6 +27,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item relative float-left w-full">
           <img
+            loading="lazy"
             src={slideThree}
             className="block w-full"
             alt="diving_photo"
@@ -32,6 +35,7 @@ export const Carousel = () => {
         </div>
         <div className="carousel-item relative float-left w-full">
           <img
+            loading="lazy"
               src={slideFour}
               className="block w-full"
               alt="diving_photo"

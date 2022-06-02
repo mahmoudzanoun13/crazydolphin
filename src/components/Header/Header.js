@@ -44,7 +44,7 @@ export const Header = () => {
         <nav className='md:flex justify-between items-center bg-white py-4 md:px-10 px-7'>
           <div>
             <NavLink to="/">
-              <img className='w-20 h-auto' src={logo} alt="logo_image" />
+              <img loading="lazy" className='w-20 h-auto' src={logo} alt="logo_image" />
             </NavLink>
           </div>
           <div
@@ -53,8 +53,8 @@ export const Header = () => {
           >
             {
               open
-              ? <img src={closeSmall} alt="close_icon" srcSet={`${closeSmall}, ${closeLarge} 2x`} />
-              : <img src={menuSmall} alt="menu_icon" srcSet={`${menuSmall}, ${menuLarge} 2x`} />
+              ? <img loading="lazy" src={closeSmall} alt="close_icon" srcSet={`${closeSmall}, ${closeLarge} 2x`} />
+              : <img loading="lazy" src={menuSmall} alt="menu_icon" srcSet={`${menuSmall}, ${menuLarge} 2x`} />
             }
           </div>
           <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0'}`}>

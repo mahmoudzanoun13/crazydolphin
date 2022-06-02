@@ -15,7 +15,7 @@ export const AboutUsContent = () => {
       <OwnerAndTeam />
       <div className="grid md:grid-cols-2">
         <div className="container mx-auto px-4 py-10">
-          <img className="rounded-lg w-auto h-auto" src={fishImage} alt="fish_image" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto" src={fishImage} alt="fish_image" />
         </div>
         <div className="container mx-auto px-4 py-10">
           <h4 className="text-xl font-medium text-white py-8">{t('aboutuscontent.2')}</h4>
@@ -70,7 +70,7 @@ export const AboutUsContent = () => {
           </p>
         </div>
         <div className="container mx-auto px-4 py-10 w-3/4">
-          <img className="rounded-lg w-auto h-auto" src={scubaDiving} alt="fish_image" />
+          <img loading="lazy" className="rounded-lg w-auto h-auto" src={scubaDiving} alt="fish_image" />
         </div>
       </div>
       <div className="container mx-auto px-4 md:grid md:place-items-center">

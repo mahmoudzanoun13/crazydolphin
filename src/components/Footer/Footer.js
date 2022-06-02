@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className="sm:flex sm:mt-8">
           <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
             <div className="flex flex-col flex-[2]">
-              <img src={logo} alt="logo_image" className="mt-4 md:mt-0 mb-2 w-24 h-auto rounded-lg" />
+              <img loading="lazy" src={logo} alt="logo_image" className="mt-4 md:mt-0 mb-2 w-24 h-auto rounded-lg" />
               <div className="container flex">
                 <span className="m-1 bg-white rounded-full hover:opacity-90 duration-500">
                   <a 
@@ -26,7 +26,7 @@ export const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={tripAdvisor} alt="tripadvisor_icon" className="p-2" />
+                    <img loading="lazy" src={tripAdvisor} alt="tripadvisor_icon" className="p-2" />
                   </a>
                 </span>
                 <span className="m-1 bg-white rounded-full hover:opacity-90 duration-500">
@@ -35,7 +35,7 @@ export const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={faceBook} alt="facebook_icon" className="p-2" />
+                    <img loading="lazy" src={faceBook} alt="facebook_icon" className="p-2" />
                   </a>
                 </span>
                 <span className="m-1 bg-white rounded-full hover:opacity-90 duration-500">
@@ -44,7 +44,7 @@ export const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={whatsApp} alt="whatsapp_icon" className="p-2" />
+                    <img loading="lazy" src={whatsApp} alt="whatsapp_icon" className="p-2" />
                   </a>
                 </span>
                 <span className="m-1 bg-white rounded-full hover:opacity-90 duration-500">
@@ -53,7 +53,7 @@ export const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={youTUbe} alt="youtube_icon" className="p-2" />
+                    <img loading="lazy" src={youTUbe} alt="youtube_icon" className="p-2" />
                   </a>
                 </span>
                 <span className="m-1 bg-white rounded-full hover:opacity-90 duration-500">
@@ -62,7 +62,7 @@ export const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={instagram} alt="instagram_icon" className="p-2" />
+                    <img loading="lazy" src={instagram} alt="instagram_icon" className="p-2" />
                   </a>
                 </span>
                 <span className="m-1 bg-white rounded-full hover:opacity-90 duration-500">
@@ -71,7 +71,7 @@ export const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={weChat} alt="wechat_icon" className="p-2" />
+                    <img loading="lazy" src={weChat} alt="wechat_icon" className="p-2" />
                   </a>
                 </span>
               </div>

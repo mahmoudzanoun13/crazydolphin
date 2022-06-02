@@ -14,7 +14,7 @@ export const OwnerAndTeam = () => {
       <div className="grid md:grid-cols-2 justify-center my-6 pb-6">
         <div className="grid md:grid-cols-2 justify-center my-6 pb-6">
           <div className="container mx-auto px-4 py-10 flex justify-end">
-            <img src={ownerPicture} alt="owner_picture" className="w-56 h-auto rounded-[50%]" />
+            <img loading="lazy" src={ownerPicture} alt="owner_picture" className="w-56 h-auto rounded-[50%]" />
           </div>
           <div className="container mx-auto px-4 py-10">
             <h4 className="text-xl font-medium text-white py-8">Hady</h4>
@@ -26,7 +26,7 @@ export const OwnerAndTeam = () => {
           </div>
         </div>
         <div className="grid justify-center ">
-          <img src={teamPicture} alt="team_picture" className="w-80 h-auto rounded-lg" />
+          <img loading="lazy" src={teamPicture} alt="team_picture" className="w-80 h-auto rounded-lg" />
         </div>
       </div>
     </div>
