@@ -1,5 +1,8 @@
 import React from 'react';
 import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
+import { Footer } from '../components/Footer/Footer';
+import { Header } from '../components/Header/Header';
+import { ScrollButton } from '../components/ScrollButton/ScrollButton';
 import { About } from '../pages/About';
 import { Booking } from '../pages/Booking';
 import { Contact } from '../pages/Contact';
@@ -11,6 +14,7 @@ function App() {
   return (
     <HashRouter>
       <>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -19,6 +23,8 @@ function App() {
           <Route path="/things_to_do" element={<ThingsToDo />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <ScrollButton />
+        <Footer />
       </>
     </HashRouter>
   );
