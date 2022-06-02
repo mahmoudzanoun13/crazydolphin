@@ -4,6 +4,7 @@ import './index.css';
 import App from './container/App';
 import 'tw-elements';
 import './i18next';
+import * as registerServiceWorker from './registerServiceWorker';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,3 +15,4 @@ root.render(
 );
 
 // reportWebVitals();
+registerServiceWorker.unregister();
