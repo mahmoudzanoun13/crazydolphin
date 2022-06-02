@@ -33,10 +33,10 @@ export const ContactForm = () => {
   const postSubmition = async () => {
     try {
       await send(
-        'service_mtjpje9',
-        'template_078yzwz',
+        'service_0z22zot',
+        'template_xkcozol',
         { name, email, message },
-        'QUkx6P_PifsmmF3DL',
+        'qT8f28NJIRe5nMbcL',
       )
       setSubmitMessage({
         class: 'bg-green-500',
