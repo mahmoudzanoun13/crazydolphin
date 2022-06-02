@@ -43,7 +43,9 @@ export const Header = () => {
       <div className='shadow-md w-full fixed top-0 left-0 z-20'>
         <nav className='md:flex justify-between items-center bg-white py-4 md:px-10 px-7'>
           <div>
-            <img className='w-20 h-auto' src={logo} alt="logo_image" />
+            <NavLink to="/">
+              <img className='w-20 h-auto' src={logo} alt="logo_image" />
+            </NavLink>
           </div>
           <div
             onClick={() => setOpen(!open)}
