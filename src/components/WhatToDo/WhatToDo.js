@@ -9,7 +9,7 @@ export const WhatToDo = () => {
   return (
     <div id="what_to_do">
       <div
-        className="w-full h-screen bg-fixed bg-no-repeat bg-cover container mx-auto px-4"
+        className="w-full h-screen bg-fixed bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div>
