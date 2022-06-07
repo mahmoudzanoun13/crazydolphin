@@ -8,7 +8,7 @@ export const Carousel = () => {
   
   return (
     <div id="carouselExampleSlidesOnly" className="carousel slide relative top-28 z-10" data-bs-ride="carousel">
-      <div className="carousel-inner relative w-full overflow-hidden">
+      <div className="carousel-inner relative w-full h-[75vh] overflow-hidden">
         <div className="carousel-item active relative float-left w-full">
           <img
             loading="lazy"
