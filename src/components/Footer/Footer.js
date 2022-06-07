@@ -91,7 +91,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-6 bg-gray-800">
+      <div className="bg-gray-800">
         <div className="mt-16 flex flex-col items-center">
           <div className="sm:w-2/3 text-center py-6">
             <p className="text-sm text-white font-bold mb-2">
