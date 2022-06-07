@@ -26,8 +26,8 @@ export const Reviews = () => {
   return (
     <div
       id="reviews"
-      style={{ gridAutoColumns: '21%', backgroundColor: 'rgb(19, 19, 19)'}}
-      className="grid grid-flow-col gap-44 md:gap-16 rounded-lg overflow-x-auto overscroll-x-contain mt-24 mx-5 md:mx-0"
+      style={{ gap: '1%', backgroundColor: 'rgb(19, 19, 19)'}}
+      className="grid grid-flow-col rounded-lg overflow-x-auto overscroll-x-contain mt-24 mx-5 md:mx-0"
     >
       {
         reviewsData.map(review => (
