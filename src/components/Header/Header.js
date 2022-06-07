@@ -20,7 +20,7 @@ export const Header = () => {
   const Links = [
     {name: home, link: "/"},
     {name: about, link: "/about"},
-    {name: program, link: "/program"},
+    {name: program, link: "/"},
     {name: booking, link: "/booking"},
     {name: things_to_do, link: "/things_to_do"},
     {name: contact, link: "/contact"},
