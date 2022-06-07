@@ -7,6 +7,7 @@ import closeSmall from '../../assets/images/close_small.png';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Header.css';
+import DropDown from '../DropDown/DropDown';
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
@@ -62,7 +63,9 @@ export const Header = () => {
             {
               Links.map(link => (
                 <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
-                  <NavLink to={ link.link } className='text-gray-800 hover:text-gray-400 duration-500'>{ link.name }</NavLink>
+                  <NavLink to={ link.link } className='text-gray-800 hover:text-gray-400 duration-500'>
+                    { link.name !== "Program" ? link.name : <DropDown /> }
+                  </NavLink>
                 </li>
               ))
             }

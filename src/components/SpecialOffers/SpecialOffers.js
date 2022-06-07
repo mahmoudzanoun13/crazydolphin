@@ -9,7 +9,7 @@ import Slide from 'react-reveal/Slide';
 export const SpecialOffers = () => {
   const { t } = useTranslation();
   return (
-    <div id="special-offers" className="bg-gray-800 pb-28">
+    <div id="special-offers" className="bg-gray-800 pb-28 mt-28">
       <h3 className="text-white text-center text-4xl md:text-6xl py-6">{t('specialoffers.1')}</h3><br/>
       <div className="container mx-auto px-8 md:grid md:place-items-center">
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
