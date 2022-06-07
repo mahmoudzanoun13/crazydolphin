@@ -6,6 +6,7 @@ import closeLarge from '../../assets/images/close_large.png';
 import closeSmall from '../../assets/images/close_small.png';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import './Header.css';
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
