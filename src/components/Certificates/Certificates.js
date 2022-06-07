@@ -5,7 +5,6 @@ import certificateThree from '../../assets/images/certificate_3.jpg';
 import certificateFour from '../../assets/images/certificate_4.jpg';
 import certificateFive from '../../assets/images/certificate_5.jpg';
 import certificateSix from '../../assets/images/certificate_6.jpg';
-import './Certificates.css';
 
 export const Certificates = () => {
   return (
