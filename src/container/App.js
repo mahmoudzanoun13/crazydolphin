@@ -3,6 +3,7 @@ import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 import { Diving } from '../components/Diving/Diving';
 import { Footer } from '../components/Footer/Footer';
 import { Header } from '../components/Header/Header';
+import { NotFound } from '../components/NotFound/NotFound';
 import { Prices } from '../components/Prices/Prices';
 import { ScrollButton } from '../components/ScrollButton/ScrollButton';
 import { Snorkeling } from '../components/Snorkeling/Snorkeling';
@@ -28,6 +29,7 @@ function App() {
           <Route path="/booking" element={<Booking />} />
           <Route path="/things_to_do" element={<ThingsToDo />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <ScrollButton />
         <Footer />
