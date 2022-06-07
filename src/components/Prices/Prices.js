@@ -1,6 +1,7 @@
 import React from 'react';
 import prices from '../../assets/prices/price_list_en.pdf';
 import { useTranslation } from 'react-i18next';
+import Slide from 'react-reveal/Slide';
 
 export const Prices = () => {
   const { t } = useTranslation();
@@ -11,10 +12,12 @@ export const Prices = () => {
         <hr className="w-full md:w-1/3 h1 text-white pb-16" />
       </div>
       <div className="grid place-items-center md:block md:ml-28">
-        <h4 className="text-xl font-medium text-white py-8">{t('prices.2')}</h4>
-        <p className="text-gray-400">
-          {t('prices.3')}
-        </p>
+        <Slide right>
+          <h4 className="text-xl font-medium text-white py-8">{t('prices.2')}</h4>
+          <p className="text-gray-400">
+            {t('prices.3')}
+          </p>
+        </Slide>
         <div
           className="my-12 bg-white rounded-full p-2 hover:bg-yellow-500 transform hover:-translate-y-0.5 focus:outline-none duration-500 cursor-pointer w-52"
         >
