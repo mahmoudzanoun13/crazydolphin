@@ -11,20 +11,6 @@ import DropDown from '../DropDown/DropDown';
 
 export const Header = () => {
   const { t, i18n } = useTranslation();
-  const home = t('header.1');
-  const about = t('header.2');
-  const program = t('header.3');
-  const booking = t('header.4');
-  const things_to_do = t('header.5');
-  const contact = t('header.6');
-  const Links = [
-    {name: home, link: "/"},
-    {name: about, link: "/about"},
-    {name: program, link: "/"},
-    {name: booking, link: "/booking"},
-    {name: things_to_do, link: "/things_to_do"},
-    {name: contact, link: "/contact"},
-  ];
   const [open, setOpen] = useState(false);
 
   const handleClick = (e) => {
@@ -60,15 +46,24 @@ export const Header = () => {
             }
           </div>
           <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0'}`}>
-            {
-              Links.map(link => (
-                <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
-                  <NavLink to={ link.link } className='text-gray-800 hover:text-gray-400 duration-500'>
-                    { link.name !== "Program" ? link.name : <DropDown /> }
-                  </NavLink>
-                </li>
-              ))
-            }
+            <li className='md:ml-8 text-xl md:my-0 my-7'>
+              <NavLink to="/" className='text-gray-800 hover:text-gray-400 duration-500'>{t('header.1')}</NavLink>
+            </li>
+            <li className='md:ml-8 text-xl md:my-0 my-7'>
+              <NavLink to="/about" className='text-gray-800 hover:text-gray-400 duration-500'>{t('header.2')}</NavLink>
+            </li>
+            <li className='md:ml-8 text-xl md:my-0 my-7'>
+              <DropDown />
+            </li>
+            <li className='md:ml-8 text-xl md:my-0 my-7'>
+              <NavLink to="/booking" className='text-gray-800 hover:text-gray-400 duration-500'>{t('header.4')}</NavLink>
+            </li>
+            <li className='md:ml-8 text-xl md:my-0 my-7'>
+              <NavLink to="/things_to_do" className='text-gray-800 hover:text-gray-400 duration-500'>{t('header.5')}</NavLink>
+            </li>
+            <li className='md:ml-8 text-xl md:my-0 my-7'>
+              <NavLink to="/contact" className='text-gray-800 hover:text-gray-400 duration-500'>{t('header.6')}</NavLink>
+            </li>
             <li>
               <select
                 onClick={handleClick}
