@@ -23,10 +23,10 @@ export const DropDown = () => {
         </div>
         <div className={`${open ? 'block' : 'hidden'} group-hover:block hover:block duration-500 origin-top-right absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none`}>
           <div className="py-1">
-            <NavLink to="/program/diving" className="text-gray-800 hover:text-gray-400 block px-4 py-2 text-sm duration-500">Diving</NavLink>
-            <NavLink to="/program/snorkeling" className="text-gray-800 hover:text-gray-400 block px-4 py-2 text-sm duration-500">Snorkeling</NavLink>
-            <NavLink to="/program/special_offers" className="text-gray-800 hover:text-gray-400 block px-4 py-2 text-sm duration-500">Special Offers</NavLink>
-            <NavLink to="/program/prices" className="text-gray-800 hover:text-gray-400 block px-4 py-2 text-sm duration-500">Prices</NavLink>
+            <NavLink to="/program/diving" className="text-gray-800 hover:text-gray-400 block px-4 py-2 text-sm duration-500">{t('programcategories.2')}</NavLink>
+            <NavLink to="/program/snorkeling" className="text-gray-800 hover:text-gray-400 block px-4 py-2 text-sm duration-500">{t('programcategories.3')}</NavLink>
+            <NavLink to="/program/special_offers" className="text-gray-800 hover:text-gray-400 block px-4 py-2 text-sm duration-500">{t('programcategories.4')}</NavLink>
+            <NavLink to="/program/prices" className="text-gray-800 hover:text-gray-400 block px-4 py-2 text-sm duration-500">{t('programcategories.5')}</NavLink>
           </div>
         </div>
       </div>
