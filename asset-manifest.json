@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/crazydolphin/static/css/main.c4526f92.css",
-    "main.js": "/crazydolphin/static/js/main.07b1ec41.js",
+    "main.js": "/crazydolphin/static/js/main.1a07d8c5.js",
     "static/media/snorkeling.jpg": "/crazydolphin/static/media/snorkeling.4c442afa7596f350075f.jpg",
     "static/media/dive_and_discount.jpg": "/crazydolphin/static/media/dive_and_discount.ed07ad28b9b02031cc81.jpg",
     "static/media/diving.jpg": "/crazydolphin/static/media/diving.266add9b0237b575bb63.jpg",
-    "static/media/logo.jpg": "/crazydolphin/static/media/logo.a970c61c88a65140cedd.jpg",
     "static/media/slide_2.jpg": "/crazydolphin/static/media/slide_2.0e4b83985ceaf2e22284.jpg",
     "static/media/background_image.jpg": "/crazydolphin/static/media/background_image.c8d7f3947c7508d3837b.jpg",
     "static/media/price_list_en.pdf": "/crazydolphin/static/media/price_list_en.078edb82265fe877ae29.pdf",
@@ -21,12 +20,13 @@
     "static/media/review_2.jpg": "/crazydolphin/static/media/review_2.ed50c5bdc15f58ababac.jpg",
     "static/media/review_6.jpg": "/crazydolphin/static/media/review_6.c786776bca0ae4315d77.jpg",
     "static/media/pyramid.jpg": "/crazydolphin/static/media/pyramid.aa94e6f389ad0f7cf808.jpg",
-    "static/media/owner.jpg": "/crazydolphin/static/media/owner.995e67d5b616496a0d26.jpg",
+    "static/media/logo.jpg": "/crazydolphin/static/media/logo.16c8e2bcd7ddafe0f34f.jpg",
     "static/media/review_8.jpg": "/crazydolphin/static/media/review_8.921b74fa29986f23590a.jpg",
     "static/media/review_4.jpg": "/crazydolphin/static/media/review_4.b67b13167f6b4d096440.jpg",
     "static/media/mosque.jpg": "/crazydolphin/static/media/mosque.3b8b532a7a6b437db09e.jpg",
     "static/media/review_1.jpg": "/crazydolphin/static/media/review_1.6554d0781d93f6a57bc0.jpg",
     "static/media/certificate_5.jpg": "/crazydolphin/static/media/certificate_5.01fcd92343d8807ee3f1.jpg",
+    "static/media/owner.jpg": "/crazydolphin/static/media/owner.353d9ea0d5970a30bd8c.jpg",
     "static/media/review_9.jpg": "/crazydolphin/static/media/review_9.f7c01d9b672c6bbe81bf.jpg",
     "static/media/slide_3.jpg": "/crazydolphin/static/media/slide_3.306b8ad3fb42ca73a22e.jpg",
     "static/media/certificate_1.jpg": "/crazydolphin/static/media/certificate_1.e5ee716f26b0aff35ae0.jpg",
@@ -43,19 +43,19 @@
     "static/media/transportation_services.jpg": "/crazydolphin/static/media/transportation_services.0b1175f01430b4d2c446.jpg",
     "static/media/trips.jpg": "/crazydolphin/static/media/trips.622c521e720791ec76f7.jpg",
     "static/media/ndl.png": "/crazydolphin/static/media/ndl.4a34936861f44dc5fcb3.png",
+    "index.html": "/crazydolphin/index.html",
     "static/media/whatsapp.svg": "/crazydolphin/static/media/whatsapp.cef674c79e04a6a88c1ee1727332ac69.svg",
     "static/media/wechat.svg": "/crazydolphin/static/media/wechat.05f6e6c18f309062f51b4b5c785cbf49.svg",
     "static/media/tripadvisor.svg": "/crazydolphin/static/media/tripadvisor.5cba31af79b65271e00150fc92d6d0c7.svg",
     "static/media/youtube.svg": "/crazydolphin/static/media/youtube.32371a871c8baed68ead84aee5641b61.svg",
     "static/media/facebook.svg": "/crazydolphin/static/media/facebook.0af94ffcd2d83a3e40baabce3d509150.svg",
     "static/media/instagram.svg": "/crazydolphin/static/media/instagram.94c73cf43a838ab6abd0912299ab121b.svg",
-    "index.html": "/crazydolphin/index.html",
     "static/media/getFetch.cjs": "/crazydolphin/static/media/getFetch.c780682470504fffbd04.cjs",
     "main.c4526f92.css.map": "/crazydolphin/static/css/main.c4526f92.css.map",
-    "main.07b1ec41.js.map": "/crazydolphin/static/js/main.07b1ec41.js.map"
+    "main.1a07d8c5.js.map": "/crazydolphin/static/js/main.1a07d8c5.js.map"
   },
   "entrypoints": [
     "static/css/main.c4526f92.css",
-    "static/js/main.07b1ec41.js"
+    "static/js/main.1a07d8c5.js"
   ]
 }
